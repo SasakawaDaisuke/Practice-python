@@ -11,5 +11,3 @@ print("hello \nworld")
 print("hello \tworld")
 
 print("back slash n:\\n")
-
-print("hello" + "world")
