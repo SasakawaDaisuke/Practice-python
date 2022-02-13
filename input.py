@@ -10,6 +10,7 @@ game_text = """
 
 if age >= age_casino:
     print("カジノにようこそ")
+    print("どのゲームで遊びますか？")
     game = input(game_text)
     if game == "1":
         print("あなたはルーレットを選びました")
