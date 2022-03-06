@@ -20,11 +20,7 @@ age_casino = 18
 
 while True:
     age = int(input("何歳ですか:"))
-    game_text = """
-    1:ルーレット
-    2:ブラックジャック
-    3:ポーカー
-    """
+    game_dict = {"1": "ルーレット", "2": "ブラックジャック", "3": "ポーカー"}
     if not 0 <= age <= 120:
         print("入力された値は正しくありません。")
         continue
@@ -33,16 +29,9 @@ while True:
             print("カジノにようこそ")
             print("どのゲームで遊びますか？")
             while True:
-                game = input(game_text)
+                game = input(game_dict)
                 if game == "1":
-                    print("あなたはルーレットを選びました")
-                    break
-                elif game == "2":
-                    print("あなたはブラックジャックを選びました")
-                    break
-                elif game == "3":
-                    print("あなたはポーカーを選びました")
-                    break
+                    print(game_dict[game])
                 else:
                     print("1~3を選んでください")
                     continue
