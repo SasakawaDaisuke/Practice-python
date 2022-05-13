@@ -10,4 +10,4 @@ print(hello + " " + world)
 print("{} {}".format(hello, world))
 
 # fstring python_version >= 3.5
-print(f"{hello} {world}")
+print(f"{hello}　{world}")

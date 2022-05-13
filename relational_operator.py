@@ -13,5 +13,7 @@ c = 3
 print(a is b)
 print(a is not c)
 
-nothing  = None
+nothing = None
 print(nothing)
+
+print(1 == True)

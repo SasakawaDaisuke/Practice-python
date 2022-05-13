@@ -8,3 +8,6 @@ print(type(0.1))
 
 # Numeric Operator(数値演算子)
 print(1 + 0.4)
+print(type(1 + 0.4))
+
+print(14//3)
