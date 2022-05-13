@@ -1,7 +1,9 @@
-text = " ".join(["Hi", "My", "name", "is", "John"])
+text = ["Hi", "My", "name", "is", "John"]
+
+text = " ".join(text)
 print(text)
 
-text = "**".join(["Hi", "My", "name", "is", "John"])
+text = "**".join(text)
 print(text)
 
-print("Hi my name is John".split(" "))
+print("Hi my name is John".split())
