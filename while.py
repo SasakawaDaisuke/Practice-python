@@ -35,8 +35,8 @@ while True:
 
 while True:
     game = input(game_dict)
-    if game == "1":
-        print(game_dict[game])
+    if game in game_dict:
+        print(f"あなたは{game_dict[game]}を選びました")
         break
     else:
         print("1~3を選んでください")
