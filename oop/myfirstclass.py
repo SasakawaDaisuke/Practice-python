@@ -7,7 +7,7 @@ class Person:
         self.gender = gender
 
     def walk(self):
-        print(f"{self.name} is walking")
+        print(f"{self.name} is walking... with {Person.num_legs} legs!!")
 
 
 john = Person("John", 28, "male")
