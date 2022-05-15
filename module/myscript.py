@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/Users/sasakawa/Desktop/Udemy/practice-python/function")
+sys.path.append("//function")
 import mymodule
 import scope
 
